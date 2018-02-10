@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777;
-  background: url("../images/concrete_seamless.png");
+  background-color: #D3D3D3;
 }
 
 * {
@@ -237,3 +237,89 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/*I understand that I should be changing something like the padding, margins, or width
+  to get the desired effect, but I am having trouble executing it. Even when I think im close
+  the edges of the divs dont line up */
+
+@media screen and (max-width: 980px) {
+   .main-section {
+  float: left;
+  width: 100%;
+  max-width: 400px;
+  padding: 50px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-left: 50px;
+  
+}
+
+.sidebar {
+  float: right;
+  width: 100%;
+  max-width:270px ;
+  padding: 50px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-right: 45px;
+  
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .main-section {
+  float: left;
+  width: 100%;
+  max-width: 650px;
+  padding: 100px;
+  margin: 0 20 40 20;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+  
+}
+
+.sidebar {
+   float: left;
+  width: 100%;
+  max-width: 650px;
+  padding: 100px;
+  margin: 0 20 40 20;
+  background: #fff;
+  border: 1px solid #ddd;
+
+}
+
+@media screen and (max-width: 640px) {
+   .main-section {
+  float: left;
+  width: 768px;
+  max-width: 640px;
+  padding: 50px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin:auto;
+  
+  
+}
+
+.sidebar {
+  float: right;
+  width: 100%;
+  max-width:640px ;
+  padding: 50px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin:auto;
+  
+
+  
+}
+
+
+
